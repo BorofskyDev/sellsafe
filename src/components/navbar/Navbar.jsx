@@ -6,10 +6,10 @@ import logo from "../../assets/logo.svg";
 const Menu = () => (
     <>
         <p><a href='#home'>Home</a></p>
-        <p><a href='#wgpt3'>What is GPT3?</a></p>
-        <p><a href='#possibility'>Open AI</a></p>
-        <p><a href='#features'>Case Studies</a></p>
-        <p><a href='#blog'>Library</a></p>
+        <p><a href='#whatsell'>What is SellSafe?</a></p>
+        <p><a href='#possibility'>AI Cash Flow</a></p>
+        <p><a href='#features'>Features</a></p>
+        <p><a href='#blog'>Articles</a></p>
     </>
 )
 
@@ -17,30 +17,30 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
 
     return (
-        <div className="gpt3__navbar">
-            <div className="gpt3__navbar-links">
-                <div className="gpt3__navbar-links_logo">
-                    <img src={logo} alt="logo" />
+        <div className="SellSafe__navbar">
+            <div className="SellSafe__navbar-links">
+                <div className="SellSafe__navbar-links_logo">
+                    {/* <img src={logo} alt="logo" /> */}LOGO HERE
                 </div>
-                <div className="gpt3__navbar-links_container">
+                <div className="SellSafe__navbar-links_container">
                    <Menu />
                 </div>
             </div>
-            <div className="gpt3__navbar-sign">
+            <div className="SellSafe__navbar-sign">
                 <p>Sign In</p>
                 <button type="button">Sign Up</button>
             </div>
-            <div className="gpt3__navbar-menu">
+            <div className="SellSafe__navbar-menu">
                 {toggleMenu ? (
                     <RiCloseLine color="#fff" onClick={() => setToggleMenu(false)} />
                 ) : (
                     <RiMenu3Line color="#fff" onClick={() => setToggleMenu(true)} />
                 )}
                 {toggleMenu && (
-                    <div className="gpt3__navbar-menu_container scale-up-center">
-                        <div className="gpt3__navbar-menu_container-links">
+                    <div className="SellSafe__navbar-menu_container scale-up-center">
+                        <div className="SellSafe__navbar-menu_container-links">
                             <Menu />
-                            <div className="gpt3__navbar-menu_container-links-sign">
+                            <div className="SellSafe__navbar-menu_container-links-sign">
                                 <p>Sign In</p>
                                 <button type="button">Sign Up</button>
                             </div>
