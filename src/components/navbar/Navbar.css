@@ -14,12 +14,42 @@
 
 .SellSafe__navbar-links_logo {
     margin-right: 2rem;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .SellSafe__navbar-links_logo img {
-    width: 62.56px;
-    height: 16.02px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid;
+    border-image: var(--gradient-bar);
+    border-image-slice: 1;
 }
+
+.SellSafe__navbar-links_logo2 {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid;
+    border-image: var(--gradient-bar);
+    border-image-slice: 1;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-family: var(--font-family);
+    background: linear-gradient(103.22deg, #ae67fa -13.86%, #00ffdd 79.55%);
+    background-clip: text;
+    -webkit-bakground-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.SellSafe__navbar-links_logo-icon {
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    margin-right: 3px;
+    color: #00ffdd;
+}
+
 
 .SellSafe__navbar-links_container {
     display: flex;
@@ -45,6 +75,16 @@
     cursor: pointer;
 }
 
+
+.SellSafe__navbar-links_container p:hover {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-bakground-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+
+
 .SellSafe__navbar-sign button,
 .SellSafe__navbar-menu_container button {
     padding: 0.5rem 1rem;
@@ -58,6 +98,22 @@
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+.SellSafe__navbar-sign button:hover {
+    background: var(--gradient-bar);
+    box-shadow:
+        0 0 20px 6px #00ff9d,
+        0 0 30px 12px #ae67fa,
+        0 0 35px 15px #000000;
+}
+
+.SellSafe__navbar-menu_container button:hover {
+    background: var(--gradient-bar);
+    box-shadow:
+        0 0 20px 6px #00ff9d,
+        0 0 30px 12px #ae67fa,
+        0 0 35px 15px #000000;
 }
 
 .SellSafe__navbar-menu {
@@ -84,18 +140,25 @@
     margin-top: 1rem;
     min-width: 210px;
     border-radius: 5px;
-    box-shadow: 0 0 5 rgba( 0, 0, 0, 0.2);
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
 }
 
 .SellSafe__navbar-menu_container p {
     margin: 1rem 0;
 }
 
+.SellSafe__navbar-menu_container p:hover {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-bakground-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
 .SellSafe__navbar-menu_container-links-sign {
     display: none;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1200px) {
     .SellSafe__navbar-links_container {
         display: none;
     }
@@ -104,6 +167,7 @@
         display: flex;
     }
 }
+
 @media screen and (max-width: 700px) {
     .SellSafe__navbar {
         padding: 2rem 4rem;
