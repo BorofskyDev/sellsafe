@@ -5,6 +5,26 @@
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: #040C18;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black;
+    border-radius: 50px;
+    background-image: linear-gradient(#002853, #040c18);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#00ff9d 1.84%, #ae67fa 102.67%);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#ff8a71 1.84%, #ae67fa 102.67%)
+}
+
 body {
     background: var(--color-bg)
 }
@@ -38,6 +58,79 @@ a {
     background-clip: text;
     -webkit-bakground-clip: text;
     -webkit-text-fill-color: transparent;
+    background-size: 300%;
+    background-position: -100%;
+    animation: animatedText 6s infinite linear alternate-reverse;
+}
+
+.gradient__bar {
+    background: linear-gradient(103.22deg, #00ff9d, #ae67fa, #ff8a71, #ae67fa, #00ff9d, #ae67fa, #ff8a71, #ae67fa);
+    background-size: 400% 400%;
+    -webkit-animation: animatedBackground 30s ease infinite alternate-reverse;
+    -moz-animation: animatedBackground 30s ease infinite alternate-reverse;
+    animation: animatedBackground 30s ease infinite alternate-reverse;
+}
+
+@-webkit-keyframes animatedBackground {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes animatedBackground {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes animatedBackground {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes animatedText {
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 100%
+    }
+}
+
+@keyframes animatedText2 {
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 100%
+    }
 }
 
 .section__padding {
@@ -78,18 +171,21 @@ a {
 }
 
 @media screen and (max-width: 700px) {
-    .section__padding{
+    .section__padding {
         padding: 4rem;
     }
-    .section__margin{
+
+    .section__margin {
         margin: 4rem;
     }
 }
+
 @media screen and (max-width: 550px) {
-    .section__padding{
+    .section__padding {
         padding: 4rem 2rem;
     }
-    .section__margin{
+
+    .section__margin {
         margin: 4rem 2rem;
     }
 }

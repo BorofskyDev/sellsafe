@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 import "./Navbar.css";
-import logo from "../../assets/logo.svg";
+import sellsafe3 from "../../assets/sellsafe3.png";
+import { BsShieldFillCheck, BsShieldCheck } from 'react-icons/bs'
 
 const Menu = () => (
     <>
@@ -20,7 +21,8 @@ const Navbar = () => {
         <div className="SellSafe__navbar">
             <div className="SellSafe__navbar-links">
                 <div className="SellSafe__navbar-links_logo">
-                    {/* <img src={logo} alt="logo" /> */}LOGO HERE
+                    {/* <img src={sellsafe3} alt="logo" /> */}
+                    <p className='SellSafe__navbar-links_logo2'><BsShieldCheck className='SellSafe__navbar-links_logo-icon' />SellSafe</p>
                 </div>
                 <div className="SellSafe__navbar-links_container">
                    <Menu />

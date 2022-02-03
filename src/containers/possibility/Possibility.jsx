@@ -1,12 +1,12 @@
 import React from 'react';
 import './Possibility.css'
-import possibility from '../../assets/possibility.png'
+import aibrain from '../../assets/aibrain.png'
 
 const Possibility = () => {
     return (
         <div className='SellSafe__possibility section__padding' id='possibility'>
             <div className='SellSafe__possibility-image'>
-                <img src={possibility}  alt='possibility' />
+                <img src={aibrain}  alt='possibility' />
             </div>
             <div className='SellSafe__possibility-content'> 
                 <h4>Request Early Access to Get Started</h4>

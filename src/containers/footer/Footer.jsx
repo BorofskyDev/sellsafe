@@ -1,4 +1,5 @@
 import React from 'react';
+import { BsShieldCheck } from 'react-icons/bs';
 import './Footer.css'
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
             </div>
             <div className='SellSafe__footer-links'>
                 <div className='SellSafe__footer-links_logo'>
-                    LOGO HERE
+                    <p className='SellSafe__footer-links_logo2'><BsShieldCheck className='SellSafe__footer-links_logo-icon' />SellSafe</p>
                     {/* <img/> */}
                 </div>
                 <div className='SellSafe__footer-links_div'>

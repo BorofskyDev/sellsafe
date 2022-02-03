@@ -49,6 +49,13 @@
     min-width: 150px;
 }
 
+.SellSafe__cta-btn button:hover {
+    background: #ff4820;
+    box-shadow:
+        0 0 20px 6px #ff4820,
+        0 0 30px 12px #ae67fa,
+        0 0 35px 15px #000000;
+}
 
 @media screen and (max-width: 650px) {
     .SellSafe__cta {
