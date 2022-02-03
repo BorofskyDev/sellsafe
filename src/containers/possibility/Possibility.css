@@ -52,13 +52,17 @@
     margin-bottom: 2rem; 
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1250px) {
     .SellSafe__possibility {
         flex-direction: column;
     }
 
     .SellSafe__possibility-image {
         margin: 1rem 0;
+    }
+    .SellSafe__possibility-image img {
+        width: 80%;
+        height: 80%
     }
     .SellSafe__possibility-content {
         margin-top: 2rem;

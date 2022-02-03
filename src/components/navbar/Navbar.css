@@ -77,10 +77,11 @@
 
 
 .SellSafe__navbar-links_container p:hover {
-    background: var(--gradient-text);
+    background: var(--gradient-bar);
     background-clip: text;
     -webkit-bakground-clip: text;
     -webkit-text-fill-color: transparent
+    
 }
 
 

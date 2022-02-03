@@ -90,10 +90,10 @@
 
 .SellSafe__header-content__social:hover {
     color: #00ff9d;
-    background: var(--gradient-bar);
+    transform: scale(1.2, 1.2);
     box-shadow: 
         0 0 6px 3px #ff4820,
-        0 0 10px 6px #00ff9d,
+        0 0 10px 6px #ff4820,
         0 0 14px 9px #ae67fa;
 }
 
