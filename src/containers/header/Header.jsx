@@ -9,19 +9,17 @@ const Header = () => {
         <div className='SellSafe__header section__padding' id='home'>
             <div className='SellSafe__header-content'>
                 <h1 className='gradient__text'>Increase Your Cash Flow with SellSafe</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem et tortor consequat id porta nibh venenatis cras. A condimentum vitae sapien pellentesque habitant morbi tristique.</p>
+                <p>SellSafe helps Business to Business companies make informed credit decisions in their sales process. We help small to medium-sized B2B companies increase their sales, increase their cash flow, and give them a competitive advantage over larger competition. </p>
                 <div className='SellSafe__header-content__input'>
-                    <button type='button'>Get Started</button>
+                    <a className='SellSafe__link-btn' href='#footer'> <button type='button'> Get Started</button></a>
                 </div>
-                <div className='SellSafe__header-content__people'>
+                {/* <div className='SellSafe__header-content__people'>
                     <button className='SellSafe__header-content__social'><FaFacebook className='SellSafe__header-content___social-icon'/></button>
                     <button className='SellSafe__header-content__social'><FaLinkedin className='SellSafe__header-content___social-icon'/></button>
                     <button className='SellSafe__header-content__social'><FaTwitter className='SellSafe__header-content___social-icon'/></button>
                     <button className='SellSafe__header-content__social'><FaYoutube className='SellSafe__header-content___social-icon'/></button>
                     <button className='SellSafe__header-content__social'><FaEnvelope className='SellSafe__header-content___social-icon'/></button>
-                    {/* <img src={people} alt='people' />
-                    <p>1,600 people requested access</p> */}
-                </div>
+                </div> */}
             </div>
             <div className='SellSafe__header-image'>
                 <img src={ai} alt='ai' />

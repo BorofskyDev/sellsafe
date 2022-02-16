@@ -9,7 +9,7 @@ const CTA = () => {
                 <h3>Register today & step into the future before it's here</h3>
             </div>
             <div className='SellSafe__cta-btn'>
-                <button type='button'>Get Started</button>
+                <button type='button'><a href="mailto: info@wesellsafe.com">Get Started</a></button>
             </div>
         </div>
     );

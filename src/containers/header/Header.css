@@ -33,14 +33,21 @@
     display: flex;
 }
 
+/* .SellSafe__link-btn {
+    flex: 0.6;
+    width: 100%;
+    height: 100%;
+} */
+
 .SellSafe__header-content__input button {
     flex: 0.6;
     width: 100%;
+    height: 100%;
     background: #ff4820;
     border-radius: 10px;
     font-family: var(--font-family);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.8rem;
     line-height: 27px;
     color: #ffffff;
     cursor: pointer;
@@ -52,7 +59,7 @@
 .SellSafe__header-content__input button:hover {
     background: var(--gradient-bar);
     transform: scale(1.2, 1.2);
-    box-shadow: 
+    box-shadow:
         0 0 20px 6px #00ff9d,
         0 0 30px 12px #ae67fa,
         0 0 35px 15px #000000;
@@ -91,7 +98,7 @@
 .SellSafe__header-content__social:hover {
     color: #00ff9d;
     transform: scale(1.2, 1.2);
-    box-shadow: 
+    box-shadow:
         0 0 6px 3px #ff4820,
         0 0 10px 6px #ff4820,
         0 0 14px 9px #ae67fa;

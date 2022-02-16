@@ -10,7 +10,7 @@ const Menu = () => (
         <p><a href='#whatsell'>What is SellSafe?</a></p>
         <p><a href='#possibility'>AI Cash Flow</a></p>
         <p><a href='#features'>Features</a></p>
-        <p><a href='#blog'>Articles</a></p>
+        {/* <p><a href='#blog'>Articles</a></p> */}
     </>
 )
 
@@ -28,10 +28,10 @@ const Navbar = () => {
                    <Menu />
                 </div>
             </div>
-            <div className="SellSafe__navbar-sign">
+            {/* <div className="SellSafe__navbar-sign">
                 <p>Sign In</p>
                 <button type="button">Sign Up</button>
-            </div>
+            </div> */}
             <div className="SellSafe__navbar-menu">
                 {toggleMenu ? (
                     <RiCloseLine color="#fff" onClick={() => setToggleMenu(false)} />
@@ -42,10 +42,10 @@ const Navbar = () => {
                     <div className="SellSafe__navbar-menu_container scale-up-center">
                         <div className="SellSafe__navbar-menu_container-links">
                             <Menu />
-                            <div className="SellSafe__navbar-menu_container-links-sign">
+                            {/* <div className="SellSafe__navbar-menu_container-links-sign">
                                 <p>Sign In</p>
                                 <button type="button">Sign Up</button>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 )}
