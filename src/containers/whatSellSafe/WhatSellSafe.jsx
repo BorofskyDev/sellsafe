@@ -6,7 +6,7 @@ const WhatSellSafe = () => {
     return (
         <div className='SellSafe__whatSellSafe section__margin' id='whatsell'>
             <div className='SellSafe__whatSellSafe-feature'>
-                <Feature title='What is SellSafe?' text='SellSafe is a system developed by 2000s National Credit Executive of the Year, Mark Borofsky, who has over 40 years experience in Commercial Credit and its application in a multitude of industries. Our system takes an expertise typically reserved for larger corporations and makes it accessible to companies of any size.'/>
+                <Feature title='What is SellSafe?' text='SellSafe is a system developed by 2001s National Credit Executive of the Year, Mark Borofsky, who has over 40 years experience in Commercial Credit and its application in a multitude of industries. Our system takes an expertise typically reserved for larger corporations and makes it accessible to companies of any size.'/>
             </div>
             <div className='SellSafe__whatSellSafe-heading'>
                 <h1 className='gradient__text'>Cash Flow is King and we give you access to the Throne</h1>
